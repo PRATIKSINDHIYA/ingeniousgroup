@@ -1,6 +1,6 @@
-# Aurora Creative Co. — Creative Agency Website
+# Ingenious Group — Creative Digital Marketing Website
 
-> A static, SEO-forward creative agency website for **Aurora Creative Co.** — built as a polished multi-page front-end experience with editorial copy, overlay navigation, project showcases, motion-ready interactions, and an Atomic Design-inspired CSS structure.
+> Static multi-page site for **Ingenious Group** (Himmatnagar, Gujarat): social media & Meta ads, branding, SEO & analytics, content, and website development. Based on the open **Creative Agency** HTML template; customised copy, imagery, and contact details.
 
 [![Static HTML](https://img.shields.io/badge/Static-HTML%20%2B%20CSS%20%2B%20JS-111111?style=for-the-badge)](#technology-used)
 [![Atomic CSS](https://img.shields.io/badge/Structure-Atomic%20Design-7C3AED?style=for-the-badge)](#atomic-design-structure)
@@ -35,7 +35,7 @@
 
 ## Overview
 
-**Aurora Creative Co.** is a static creative agency website built for a Melbourne-based studio positioning. The website presents brand systems, digital experiences, campaigns, selected projects, insights, services, and a contact path for project inquiries.
+**Ingenious Group** is a static website for a creative digital marketing agency in Himmatnagar, Gujarat. The site presents services, portfolio-style highlights, about the team, insights, and contact information for new projects.
 
 The codebase is built with static HTML, CSS, JavaScript, vendor libraries, local assets, and an Atomic Design-inspired stylesheet organization. It is designed to be deployed easily through GitHub Pages or any static hosting platform.
 
@@ -266,7 +266,7 @@ The website includes SEO-focused agency copy and metadata.
 
 ### Content Positioning
 
-Aurora Creative Co. is positioned as a studio that helps growth-focused teams with:
+Ingenious Group is positioned as an agency that helps growth-focused businesses with:
 
 - brand identity
 - digital product design

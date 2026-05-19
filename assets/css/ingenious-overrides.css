@@ -1,0 +1,208 @@
+/**
+ * Ingenious Group — site-specific tweaks (template: Creative Agency)
+ * logo-group.png: black lockup on white — invert on dark header/preloader.
+ */
+.tt-logo img,
+.ptr-prel-image {
+    max-height: 64px;
+    width: auto;
+}
+
+img.tt-logo-light {
+    filter: brightness(0) invert(1);
+}
+
+img.tt-logo-dark {
+    filter: none;
+}
+
+/* Lead forms (booking + contact) */
+.ig-form-box {
+    width: 100%;
+}
+
+.ig-form-box .tt-form-group {
+    margin-bottom: 1.25rem;
+}
+
+.ig-form-box .tt-row {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.ig-form-box .tt-row > [class*="tt-col"] {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.ig-form-box .tt-form-control,
+.ig-form-box select.tt-form-control {
+    width: 100%;
+    display: block;
+}
+
+.ig-form-box label {
+    display: block;
+    margin-bottom: 0.35rem;
+    font-size: 0.9rem;
+    letter-spacing: 0.02em;
+}
+
+.ig-form-box .tt-form-text {
+    display: block;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.ig-form-status {
+    margin-top: 1.25rem;
+    padding: 0.85rem 1rem;
+    border-radius: 4px;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.ig-form-status--success {
+    background: rgba(37, 211, 102, 0.12);
+    border: 1px solid rgba(37, 211, 102, 0.35);
+    color: #b8f5d0;
+}
+
+.ig-form-status--error {
+    background: rgba(255, 80, 80, 0.1);
+    border: 1px solid rgba(255, 80, 80, 0.35);
+    color: #ffc9c9;
+}
+
+.ig-form-status--loading {
+    opacity: 0.85;
+}
+
+.ig-booking-wrap {
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ig-booking-services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+}
+
+.ig-booking-services span {
+    font-size: 0.8rem;
+    padding: 0.35rem 0.75rem;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 999px;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+/* Contact page — map + form side by side */
+.ig-contact-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem 2rem;
+}
+
+.ig-contact-info p {
+    margin: 0;
+}
+
+.ig-contact-split {
+    align-items: stretch;
+}
+
+.ig-map-wrap {
+    position: relative;
+    width: 100%;
+    min-height: 480px;
+    height: 100%;
+    border-radius: 4px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.ig-map-wrap iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.ig-contact-form-col {
+    padding-left: 0;
+}
+
+@media (min-width: 992px) {
+    .ig-contact-form-col {
+        padding-left: 2rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .ig-map-wrap {
+        min-height: 320px;
+        margin-bottom: 2.5rem;
+    }
+
+    .ig-contact-form-col {
+        padding-left: 0;
+    }
+}
+
+/* Office / studio photos in content sections */
+.ig-office-photo {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 2.5rem;
+}
+
+/* Fixed WhatsApp chat button (all pages) */
+.ig-whatsapp-float {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    z-index: 9999;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: #25d366;
+    color: #fff !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    line-height: 1;
+    box-shadow: 0 4px 20px rgba(37, 211, 102, 0.45);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    pointer-events: auto;
+}
+
+.ig-whatsapp-float:hover {
+    transform: scale(1.08);
+    color: #fff !important;
+    box-shadow: 0 6px 28px rgba(37, 211, 102, 0.6);
+}
+
+@media (max-width: 768px) {
+    .ig-whatsapp-float {
+        right: 16px;
+        bottom: 16px;
+        width: 52px;
+        height: 52px;
+        font-size: 28px;
+    }
+}
+
+/* Optional: signature mark in footer */
+.ig-signature {
+    max-width: 180px;
+    height: auto;
+    margin-top: 1rem;
+    opacity: 0.85;
+}
